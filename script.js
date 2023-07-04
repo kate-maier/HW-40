@@ -85,6 +85,9 @@ mainCatalog.forEach((catalogItem) => {
 
                 category.addEventListener('click', (event) => {
                     productsInfoCards.innerHTML = '';
+                    aboutOrder.innerHTML = '';
+                    form.style.display = 'none';
+
 
                     let target = event.target;
                     let name = target.textContent;
